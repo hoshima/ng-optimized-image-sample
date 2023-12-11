@@ -6,4 +6,8 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./not-optimized-image/not-optimized-image.component'),
   },
+  {
+    path: 'optimized',
+    loadComponent: () => import('./optimized-image/optimized-image.component'),
+  },
 ];

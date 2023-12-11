@@ -11,6 +11,9 @@ import { RouterModule, RouterOutlet } from '@angular/router';
     <a [routerLink]="['/not-optimized']" routerLinkActive="router-link-active"
       >未最適化</a
     >
+    <a [routerLink]="['/optimized']" routerLinkActive="router-link-active"
+      >最適化済み</a
+    >
 
     <router-outlet></router-outlet>
   `,
